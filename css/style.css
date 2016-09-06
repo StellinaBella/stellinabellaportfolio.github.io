@@ -1,0 +1,139 @@
+body {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	font-family: "Roboto", "Arial", sans-serif;
+	color: #352154;
+	background: #e1f2f5;
+}
+h1 {
+    font-size: 48px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: -20px;
+    padding-bottom: 30px;
+}
+h2 {
+	font-size: 30px;
+	line-height: 48px;
+	font-weight: 500;
+
+}
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.container-wrapper {
+	width: 900px;
+  	margin: 0 auto;
+ 	padding: 0 100px;
+ 	background: #0c89a0;
+}
+.main-header {
+    margin: 0 auto;
+    text-align: center;
+
+}
+.main-header ul {
+		background: #0c89a0;
+		padding: 30px 0;
+		margin-top: -10px;
+		margin-bottom: 0px;
+		border-bottom: 3px solid blue;
+}
+.main-header li {
+	list-style: none;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 40px;
+}
+.main-header a {
+	padding: 10px 20px;
+	text-decoration: none;
+	color:  #352154;
+	box-shadow: 0 0 4px 4px #e1f2f5; 
+	border-radius: 20px;
+}
+.main-header a:hover {
+	background: #52d8f0;
+	opacity: 0.5;
+	border-radius: 20px;
+
+}
+
+.about-me-text {
+    float: right;
+    width: 60%;
+    margin-top: 20px;
+}
+.about-me-foto {
+    float: left;
+    width: 30%;
+    margin-top: 40px;
+}
+.portfolio {
+    display: block;
+    margin-top: 20px;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    padding: 80px 0; 
+}
+.example {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-right: 40px;
+}
+.portfolio-description {
+    display: none;
+    position: absolute;
+    background: #c3d5d8;
+    opacity: 0.8;
+    padding: 20px 30px;
+    word-wrap: break-word;
+    top: 33px;
+    left: 20px;
+    width: 150px;
+    height: 150px;
+    box-sizing: content-box;
+    border-radius: 20px;
+    text-align: center;
+}
+.example:hover .portfolio-description {
+	display: block;
+	box-shadow: 0 0 10px 10px #0c89a0;
+}
+.portfolio-description span {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.write-us {
+	display: none;
+	padding-top: 40px;
+}
+.write-us fieldset {
+	border: transparent;
+}
+
+.social-btn {
+	display: inline-block;
+	margin: 20px auto;
+	width: 100%;
+	text-align: right;
+}
+.social-btn a {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: ##352154;
+}
+.social-btn a:hover {
+	background: #52d8f0;
+	opacity: 0.5;
+	border-radius: 20px;
+}
